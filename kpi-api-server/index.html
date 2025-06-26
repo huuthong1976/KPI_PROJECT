@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Báo cáo KPI Chi tiết</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { font-family: sans-serif; padding: 2em; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        .chart-container { max-width: 800px; margin-top: 30px; }
+    </style>
+</head>
+<body>
+    <h1>Báo cáo KPI của Đơn vị TDN (Tháng 4/2025)</h1>
+
+    <div class="chart-container">
+        <canvas id="kpiChart"></canvas>
+    </div>
+
+    <h2>Dữ liệu chi tiết</h2>
+    <table id="kpiTable">
+        <thead>
+            <tr>
+                <th>Khía cạnh BSC</th>
+                <th>Tên KPI</th>
+                <th>Mục tiêu</th>
+                <th>Thực tế</th>
+                <th>Đơn vị tính</th>
+            </tr>
+        </thead>
+        <tbody>
+            </tbody>
+    </table>
+
+    <script src="app.js"></script>
+</body>
+</html>
